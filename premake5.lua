@@ -6,7 +6,11 @@ project "stb"
 	{
 		"src/**.h",
 		"src/**.c",
-		"src/**.cpp"
+		"src/**.cpp",
+		
+		"include/**.c",
+		"include/**.cpp",
+		"include/**.h"
 	}
 
 	filter "configurations:Debug"
